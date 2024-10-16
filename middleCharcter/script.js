@@ -3,7 +3,7 @@
 console.log(getMiddle('middle'))
 function getMiddle(s)
 {
-    arrayS = s.trim().split('');
+    let arrayS = s.trim().split('');
     i = 0;
     if (arrayS.length % 2 === 0) {
         return arrayS[(arrayS.length / 2) - 1] + arrayS[(arrayS.length / 2)]; 
